@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-k89dqvw%c^v!wagt-_@c7a@o52$x3rtu+d(ih$qxzhi050*=tw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://dps-portfolio-deploy.onrender.com'
+]
 
 
 # Application definition
